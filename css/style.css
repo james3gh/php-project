@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-heading {
+  background-color: aquamarine;
+  padding: 10px;
+}
+#lform h3,
+#showData h3 {
+  text-align: center;
+  background-color: rgba(255, 217, 0, 0.438);
+}
+#tab {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+#tab tr {
+  border-bottom: 1pt solid black;
+}
+#tab td {
+  text-align: center;
+  padding: 15px 0px;
+}
+/* .inner {
+  display: inline-block;
+} */
+#message {
+  /* padding: 10px 7px; */
+  font-size: large;
+  font-weight: 500;
+  background-color: rgba(128, 128, 128, 0.568);
+  min-width: 250px;
+  margin-top: 7px;
+}
+#edit {
+  width: 65px;
+}
+#del {
+  width: 75px;
+}

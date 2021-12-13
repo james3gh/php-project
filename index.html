@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"> 
+   
+  
+    <title>tdl</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-3 mb-5 text-center main-heading">TO-DO LIST using AJAX, PHP, BOOTSTRAP, JS</h1>
+        <div class="row">
+            <div class="col-md-5 mb-5" id="lform">
+                <h3 class="mb-4 p-2">Add/Update student</h3>
+                <form action="" id="main-form">
+                    <div class="mb-3">
+                        <input type="text" id="stid" class="form-control" style="display: none;" />
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" id="nameid" placeholder="name">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emailid" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="passwordid" placeholder="">
+                      </div>
+                      <button type="button" class="btn btn-primary" id="btnadd">Save</button>  
+                      <div id="message"></div>  
+                </form>
+              
+            </div>
+            <div class="col-md-7 text-center" id="showData">
+                <h3 class="mb-4 p-2">Show Information</h3>
+                <table id="tab">
+                    <thead>
+                    <tr class="fw-bold">
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Pasword</td>
+                    <td>Action</td>
+                    </tr>
+                    </thead>
+
+                    <tbody id="tbody"></tbody>
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>jam</td>
+                        <td>dsdvvfvx@gmail.com</td>
+                        <td>1224235</td>
+                        <td> 
+                            <button name="edit" type="submit" data-m = "" class="btn btn-warning m-4 ">edit</button>
+                            <button name="del" id="del" data-m = "" type="submit" class="btn btn-danger">delete</button>
+                        </td>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+    </div>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/ajaxscript.js"></script>
+</body>
+
+</html>
